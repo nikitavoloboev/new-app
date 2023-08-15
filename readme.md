@@ -9,7 +9,18 @@ Uses:
 
 ## Install
 
-Install [template](https://github.com/fabiospampinato/template) by running:
+Clone this repo and:
+
+```
+cd template
+pnpm i
+```
+
+Follow instructions in [template/readme.md](template/readme.md).
+
+In future [template CLI](https://github.com/fabiospampinato/template) will be used to use the template more easily and automatically replace the variables inside the template with user defined ones. Things like `{{name}}` and `{{description}}` that you will see. For now replace them manually.
+
+<!-- Install [template](https://github.com/fabiospampinato/template) by running:
 
 ```
 npm install -g @fabiospampinato/template
@@ -29,7 +40,7 @@ template new app my-app
 
 And fill in variables for the project like name, description.
 
-After filling in values, you can `cd` into the project and read the `readme.md` for the setup instructions.
+After filling in values, you can `cd` into the project and read the `readme.md` for the setup instructions. -->
 
 ## Deploy template
 
