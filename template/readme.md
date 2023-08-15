@@ -67,3 +67,9 @@ pnpm dev
 Then go to http://localhost:3000/, it renders route defined at [src/routes/index.tsx](src/routes/index.tsx).
 
 If signed in (there is valid token stored in cookie), it shows the app, otherwise the landing page.
+
+## Deploy
+
+Connect repository with this code in [Cloudflare Dashboard](https://dash.cloudflare.com) as website.
+
+It should automatically deploy the code and do so on every commit to `main` branch.
