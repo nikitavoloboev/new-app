@@ -1,4 +1,6 @@
-# New desktop/web app
+# New App
+
+> New Solid/Grafbase/EdgeDB/Tauri app
 
 Uses:
 
@@ -6,6 +8,8 @@ Uses:
 - [Solid](https://www.solidjs.com/) for web UI
 - [Tauri](https://tauri.app/) and [Rust](https://www.rust-lang.org/) for desktop app
 - [Hanko](https://www.hanko.io/) for authentication
+
+Is used in production by [Learn Anything](https://github.com/learn-anything/learn-anything.xyz).
 
 ## Install
 
@@ -49,10 +53,6 @@ Template is setup to be used with [Cloudflare Pages](https://pages.cloudflare.co
 Push the template code to repository (private or public) and connect it in [Cloudflare Dashboard](https://dash.cloudflare.com).
 
 It should automatically deploy the code and do so on every commit to `main` branch.
-
-## Used by
-
-- [KusKus](https://github.com/kuskusapp/kuskus.app)
 
 ## More templates
 
